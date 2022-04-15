@@ -1,0 +1,60 @@
+networkDescription: 'Symbol Private Network -Harvesty-'
+initialCurrencyAtomicUnits: 9000000000000000
+maxMosaicAtomicUnits: 9000000000000000
+totalChainImportance: 9000000000000000
+minHarvesterBalance: 500
+maxHarvesterBalance: 50000000000000
+networkType: 152
+minVoterBalance: 50000
+baseNamespace: 'harvesty'
+explorerUrl: http://test.hvsty01.harvestasya.com:90
+faucetUrl: http://test.hvsty01.harvestasya.com:100
+beneficiaryAddress: ''
+votingKeyDesiredLifetime: 720
+votingKeyDesiredFutureLifetime: 120
+lastKnownNetworkEpoch: 1
+restExtensions: 'accountLink, aggregate, lockHash, lockSecret, mosaic, metadata, multisig, namespace, receipts, restrictions, transfer'
+nemesis:
+    mosaics:
+        - name: 'hvsty'
+          divisibility: 6
+          duration: 0
+          supply: 9000000000000000
+          isTransferable: true
+          isSupplyMutable: false
+          isRestrictable: false
+          accounts: 3
+inflation:
+    starting-at-height-1: 0
+    starting-at-height-10000: 0
+knownRestGateways:
+    - http://test.hvsty01.harvestasya.com:3000
+    - http://test.hvsty02.harvestasya.com:3000
+knownPeers:
+    -
+        publicKey: B55E0950182A4306516A6F27882BFE0D7A9D4BC3011A88572C8A9A2075C98777
+        endpoint:
+            host: test.hvsty01.harvestasya.com
+            port: 7900
+        metadata:
+            name: Hi!Hvesty!!Testnet!!!
+            roles: Api,Peer,Voting
+    -
+        publicKey: AFC039D36EBE564D3C7A0FDE5614F5373E1CF506028C5C2EC84EA5B26BA8CC89
+        endpoint:
+            host: test.hvsty02.harvestasya.com
+            port: 7900
+        metadata:
+            name: HiHi!Hvesty!!Testnet!!!
+            roles: Api,Peer,Voting
+maxMessageSize: 10240
+harvestNetworkFeeSinkAddress: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
+mosaicRentalFeeSinkAddress: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
+namespaceRentalFeeSinkAddress: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
+harvestNetworkFeeSinkAddressV1: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
+mosaicRentalFeeSinkAddressV1: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
+namespaceRentalFeeSinkAddressV1: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
+nemesisGenerationHashSeed: DE54B79C7299D53CE7BFD92E0155288A8F152E1D173FC7A12576EFA3F5861130
+nemesisSignerPublicKey: EAF712509F2FC0C5D9579DADD9753D26F4C5D66A82821FDBDD57F18D66D50AC3
+currencyMosaicId: 108626E61FC836C4
+harvestingMosaicId: 108626E61FC836C4
