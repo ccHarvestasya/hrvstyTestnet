@@ -1,2 +1,0 @@
-# hrvstyTestnet
-Symbol Private Network
