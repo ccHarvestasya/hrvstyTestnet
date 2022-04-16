@@ -3,7 +3,7 @@ initialCurrencyAtomicUnits: 9000000000000000
 maxMosaicAtomicUnits: 9000000000000000
 totalChainImportance: 9000000000000000
 minHarvesterBalance: 500
-maxHarvesterBalance: 50000000000000
+maxHarvesterBalance: 500000000000000
 networkType: 152
 minVoterBalance: 50000
 baseNamespace: 'harvesty'
@@ -29,32 +29,23 @@ inflation:
     starting-at-height-10000: 0
 knownRestGateways:
     - http://test.hvsty01.harvestasya.com:3000
-    - http://test.hvsty02.harvestasya.com:3000
 knownPeers:
     -
-        publicKey: B55E0950182A4306516A6F27882BFE0D7A9D4BC3011A88572C8A9A2075C98777
+        publicKey: 87D30E15727BA03DBD82A860976C3DFDD5D3345E6BB8BC9B0246B455BBF28197
         endpoint:
             host: test.hvsty01.harvestasya.com
             port: 7900
         metadata:
             name: Hi!Hvesty!!Testnet!!!
             roles: Api,Peer,Voting
-    -
-        publicKey: AFC039D36EBE564D3C7A0FDE5614F5373E1CF506028C5C2EC84EA5B26BA8CC89
-        endpoint:
-            host: test.hvsty02.harvestasya.com
-            port: 7900
-        metadata:
-            name: HiHi!Hvesty!!Testnet!!!
-            roles: Api,Peer,Voting
 maxMessageSize: 10240
-harvestNetworkFeeSinkAddress: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
-mosaicRentalFeeSinkAddress: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
-namespaceRentalFeeSinkAddress: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
-harvestNetworkFeeSinkAddressV1: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
-mosaicRentalFeeSinkAddressV1: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
-namespaceRentalFeeSinkAddressV1: TDCHVDWI24WV2HWQJXUAQQRBNIGLINKWQBQK5LY
-nemesisGenerationHashSeed: DE54B79C7299D53CE7BFD92E0155288A8F152E1D173FC7A12576EFA3F5861130
-nemesisSignerPublicKey: EAF712509F2FC0C5D9579DADD9753D26F4C5D66A82821FDBDD57F18D66D50AC3
-currencyMosaicId: 108626E61FC836C4
-harvestingMosaicId: 108626E61FC836C4
+harvestNetworkFeeSinkAddress: TCJAE4Q6TQYHUPBSI2FLYYHFL4WDEZMTRW4CFBY
+mosaicRentalFeeSinkAddress: TCJAE4Q6TQYHUPBSI2FLYYHFL4WDEZMTRW4CFBY
+namespaceRentalFeeSinkAddress: TCJAE4Q6TQYHUPBSI2FLYYHFL4WDEZMTRW4CFBY
+harvestNetworkFeeSinkAddressV1: TCJAE4Q6TQYHUPBSI2FLYYHFL4WDEZMTRW4CFBY
+mosaicRentalFeeSinkAddressV1: TCJAE4Q6TQYHUPBSI2FLYYHFL4WDEZMTRW4CFBY
+namespaceRentalFeeSinkAddressV1: TCJAE4Q6TQYHUPBSI2FLYYHFL4WDEZMTRW4CFBY
+nemesisGenerationHashSeed: 260C5042A21087C88BBF48EAB3227AABAFD2FFEB62368B7DF8D207689DAC499C
+nemesisSignerPublicKey: 9B3A089E7296D1159D4E07A644EE45D5E338B9A7755BB10914070F9B7B8972F8
+currencyMosaicId: 38470F26032A6603
+harvestingMosaicId: 38470F26032A6603
